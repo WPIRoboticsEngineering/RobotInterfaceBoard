@@ -174,6 +174,11 @@ Download and install this, do not change any default values
 
  [Instructions to Open Projects in Eclipse](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
  
+ # Start a Fresh Arduino Sketch
+
+[Create a Sketch with Git (STRONGLY recommended)](StartFreshSketch.md)
+
+[Create a Sketch without Git (Discouraged)](StartFreshSketchNOGIT.md)
 
 # Arduino Libraries
 ## HOWTO
@@ -217,11 +222,7 @@ SimplePacketComs
 
 DFRobotIRPosition
 
-# Start a Fresh Arduino Sketch
 
-[Create a Sketch with Git (STRONGLY recommended)](StartFreshSketch.md)
-
-[Create a Sketch without Git (Discouraged)](StartFreshSketchNOGIT.md)
 
 
 # FAQ and troubleshooting
