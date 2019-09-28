@@ -3,7 +3,7 @@
 ## Windows Stand Alone install
 Download and install this, do not change any default values
 
-[Sloeber Windows Installer](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.0/WPI-RBE-esp32-0.1.0.exe)
+[Sloeber Windows Installer](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.5/WPI-RBE-esp32-0.1.5.exe)
 
 [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 
