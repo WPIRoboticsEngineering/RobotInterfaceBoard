@@ -6,7 +6,9 @@ The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Ardui
 
 [Arduino compatiple DevkitC]( https://esp-idf.readthedocs.io/en/latest/get-started/get-started-devkitc.html)
 
-[ESP32 Microcontroller]( https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+[ESP32 Microcontroller High level Datasheet, 61 pages]( https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+
+[ESP32 Microcontroller Detailed Datasheet, 669 pages]( https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
 
 [ESP32-DevKitC Arduino module wireing diagram ](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch-20180607a.pdf)
 
