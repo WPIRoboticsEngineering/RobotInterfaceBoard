@@ -47,7 +47,7 @@ Installation instructions for Debian / Ubuntu OS
   cd ~/Arduino/hardware/espressif && \
   git clone https://github.com/espressif/arduino-esp32.git esp32 && \
   cd esp32 && \
-  git checkout 1.0.0 && \
+  git checkout 1.0.3 && \
   git submodule update --init --recursive && \
   cd tools && \
   python3 get.py
@@ -64,7 +64,7 @@ Installation instructions for Debian / Ubuntu OS
   cd espressif && \
   git clone https://github.com/espressif/arduino-esp32.git esp32 && \
   cd esp32 && \
-  git checkout 1.0.0 && \
+  git checkout 1.0.3 && \
   git submodule update --init --recursive && \
   cd tools && \
   python3 get.py
