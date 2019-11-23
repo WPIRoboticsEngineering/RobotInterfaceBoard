@@ -7,8 +7,12 @@ Download and install this, do not change any default values
 
 [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 
+## Linux Bundled Sloeber
 
-## MacOS Stand Alone install
+[Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-linux.zip)
+
+
+## MacOS  Bundled Sloeber
 
 [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
 
