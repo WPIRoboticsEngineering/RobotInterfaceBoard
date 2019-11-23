@@ -1,4 +1,20 @@
-### Robot Interface Board
+# Arduino and the ESP32 Toolchain and Sloeber Eclipse
+
+This is installed on the lab machines already. 
+
+Download and install this, do not change any default values
+
+ [Sloeber Eclipse install instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
+
+ [Instructions to Open Projects in Eclipse](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
+ 
+ # Start a Fresh Arduino Sketch
+[Create a Sketch with Git (STRONGLY recommended)](StartFreshSketch.md)
+
+[Create a Sketch without Git (Discouraged)](StartFreshSketchNOGIT.md)
+
+
+# Robot Interface Board
 
 The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Arduino module](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC?qs=sGAEpiMZZMuJ3l9lTgMBp1ZUJQFPkBG2y%2FW6zdCuiDMN%252BIbH6RhDCA%3D%3D). The Dev Kit C is a reference design of the ESP32-WROOM-32 module which houses the WiFi and bluetooth Antenae. The ESP32-WROOM-32 module houses an ESP32 microcontroller. 
 
@@ -166,21 +182,7 @@ You can follow this tutorial to install it:
 
 https://www.youtube.com/watch?v=aTVOTY93XXU
 
-# Arduino and the ESP32 Toolchain and Sloeber Eclipse
 
-This is installed on the lab machines already. 
-
-Download and install this, do not change any default values
-
- [Sloeber Eclipse install instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
-
- [Instructions to Open Projects in Eclipse](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
- 
- # Start a Fresh Arduino Sketch
-
-[Create a Sketch with Git (STRONGLY recommended)](StartFreshSketch.md)
-
-[Create a Sketch without Git (Discouraged)](StartFreshSketchNOGIT.md)
 
 # Arduino Libraries
 ## HOWTO
