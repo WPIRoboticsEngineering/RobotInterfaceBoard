@@ -50,7 +50,9 @@ Give it the name:
 ```
 RBE2001Code20
 ```
-![alt text](/docs/setNameAndSourceLocation.png)
+![alt text](/docs/NewArduinoSketch1.png)
+
+![alt text](/docs/NewArduinoSketch2.png)
 
 Hit next then select the ESP32 toolchain. 
 
