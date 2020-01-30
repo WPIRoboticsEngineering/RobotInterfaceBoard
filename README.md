@@ -283,3 +283,7 @@ DFRobotIRPosition
 
 * It is an open source design of the DevKit-C module, using an open soruce tool-chain
 
+### "My eclipse if giving a 'Salt needs to be 8 bytes' error
+
+This error comes from different versions of eclipse fighting over the ```$HOME/.eclipse/``` folder. This folder is where the passwords and keys are stored, however other newer copies of Eclipse use a slightly different format. The two copies fight over control of htat folder. To fix the problem close all copies of Eclipse/Sloeber and then erase that folder. Open Sloeber again and password storage will begin working. 
+
