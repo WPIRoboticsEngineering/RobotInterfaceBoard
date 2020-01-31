@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name esp-devkit)(type KiCad)(uri ${KIPRJMOD}/fp_lib/esp-devkit.pretty)(options "")(descr ""))
+  (lib (name polulu-3784-dcdcreg)(type KiCad)(uri ${KIPRJMOD}/fp_lib/polulu-3784-dcdcreg.pretty)(options "")(descr ""))
+  (lib (name 3557-2)(type KiCad)(uri ${KIPRJMOD}/fp_lib/3557-2.pretty)(options "")(descr ""))
+  (lib (name wiichuck)(type KiCad)(uri ${KIPRJMOD}/fp_lib/wiichuck.pretty)(options "")(descr ""))
+  (lib (name P315100rH)(type KiCad)(uri ${KIPRJMOD}/fp_lib/P315100rH.pretty)(options "")(descr ""))
+  (lib (name GF-126-0327)(type KiCad)(uri ${KIPRJMOD}/fp_lib/GF-126-0327.pretty)(options "")(descr ""))
+)
