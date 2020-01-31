@@ -1,4 +1,4 @@
-(module polulu-3784-D36V28F7 (layer F.Cu) (tedit 5CD5F14C)
+(module polulu-3784-D36V28F7 (layer F.Cu) (tedit 5DAA09AD)
   (fp_text reference REF** (at -3.81 9.39) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -16,5 +16,5 @@
   (pad EN thru_hole circle (at 2.726056 0 180) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask))
   (pad PG thru_hole circle (at 2.726056 -2.54 180) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -1.423944 -0.93) (size 2.18 2.18) (drill 2.18) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 12.076056 -16.93) (size 2.18 2.18) (drill 2.18) (layers *.Cu *.Mask))
+  (pad S thru_hole circle (at 12.076056 -16.93) (size 5.3 5.3) (drill 3) (layers *.Cu *.Mask))
 )

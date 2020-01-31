@@ -43,3 +43,6 @@ eagle.epf
 *.lck
 
 /.project
+Ribv6-cache.lib
+sym-lib-table
+Ribv6.bak
