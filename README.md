@@ -68,7 +68,7 @@ These are strapping pins and have to be in known states at the time of the chip 
 13 (pull up)
 15 (pull up)
 ```
-## Input Only pins (No Pullups availible)
+## Input Only pins (No Pullups availible, no output modes)
 
 34-39 are input only. They have no output modes at all. Analog input and digital input are availible. Note that there are no input pullups on these pins. 
 
@@ -79,7 +79,7 @@ These are strapping pins and have to be in known states at the time of the chip 
 36
 ```
 
-## Availible as Both Input and Output
+## Availible as Both Input and Output (Pull ups availible)
 
 ```
 4
