@@ -9,12 +9,12 @@ Driver: [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32Ar
 
 ## Linux Bundled Sloeber
 
-evelopment Environment: [[Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-linux.zip)
+evelopment Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-linux.zip)
 
 
 ## MacOS  Bundled Sloeber
 
-evelopment Environment: [[Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
+evelopment Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
 
 Driver: [Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
 
