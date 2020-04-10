@@ -287,9 +287,9 @@ DFRobotIRPosition
 
 This error comes from different versions of eclipse fighting over the ```$HOME/.eclipse/``` folder. This folder is where the passwords and keys are stored, however other newer copies of Eclipse use a slightly different format. The two copies fight over control of htat folder. To fix the problem close all copies of Eclipse/Sloeber and then erase that folder. Open Sloeber again and password storage will begin working. 
 
-### I logged in with my credentials but its not working (and i have 2fa enabled on my GitHub account)
+### I logged in with my credentials but it's not working (and I have 2fa enabled on my GitHub account)
 
-YOu need to generate a token and use that in place of a password when storing credentials in Sloeber. 
+You need to generate a token and use that in place of a password when storing credentials in Sloeber. 
 
 For instructions on creating a token see: https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
 
