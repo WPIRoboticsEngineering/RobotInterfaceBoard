@@ -293,3 +293,5 @@ You need to generate a token and use that in place of a password when storing cr
 
 For instructions on creating a token see: https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
 
+Use your username as the login ID, and the token in the password field. 
+
