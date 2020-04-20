@@ -51,9 +51,9 @@ There is a button connected to pin 0 and is accessible to the users code as a bu
 
 ## Pins to Never Use because they will disrupt programming and opperation:
 
-6-11    - These pins are hookups for external system flash and are used by the system flash. Unless you are extending the chips flash capibilities, do not use these. 
+GPIO 6-11    - These pins are hookups for external system flash and are used by the system flash. Unless you are extending the chips flash capibilities, do not use these. 
 
-1 and 3 -  these are used to program the device and are serial port pins.
+GPIO 1 and 3 -  these are used to program the device and are serial port pins.
 
 ## Output Only Pins 
 
@@ -62,45 +62,45 @@ These pins are strapping pins for the core, if pulled to a different state than 
 These are strapping pins and have to be in known states at the time of the chip booting. If you use them as outputs, be careful to note the the pull up or down resistor states for each. When using these pins make sure the weak-pull resistor will not interfeare with your intended opperation, and do not add additional weak-pull resistors.
 
 ```
-2  (pull down)
-5  (pull up)
-12 (pull down)
-13 (pull up)
-15 (pull up)
+GPIO 2  (pull down)
+GPIO 5  (pull up)
+GPIO 12 (pull down)
+GPIO 13 (pull up)
+GPIO 15 (pull up)
 ```
 ## Input Only pins (No Pull ups availible, no output modes)
 
 34-39 are input only. They have no output modes at all. Analog input and digital input are availible. Note that there are no input pullups on these pins. 
 
 ```
-35
-34
-39
-36
+GPIO 35
+GPIO 34
+GPIO 39
+GPIO 36
 ```
 
 ## Availible as Both Input and Output (Pull ups availible)
 
 ```
-4
-14
-16-19
-21-23
-25-27
-32-33
+GPIO 4
+GPIO 14
+GPIO 16-19
+GPIO 21-23
+GPIO 25-27
+GPIO 32-33
 ```
 ## External Use pins
 
-0 is the boot pin, if held low during a reset it will prevent the device from booting
+GPIO 0 is the boot pin, if held low during a reset it will prevent the device from booting
 
-1 and 3 are the serial port used for programming and print statements. This should not be used for user functions, but can be used if serial functionality is needed.
+GPIO 1 and 3 are the serial port used for programming and print statements. This should not be used for user functions, but can be used if serial functionality is needed.
 
-13 Has an LED connected to it on the RIB
+GPIO 13 Has an LED connected to it on the RIB
 
-22 and 21 have 4.7kOhm pullups on them and are connected to the Wii accessory port. These can be used with other i2c devices.
+GPIO 22 and 21 have 4.7kOhm pullups on them and are connected to the Wii accessory port. These can be used with other i2c devices.
 See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 
-27 Is connected to the Wii header as controller detect. When the controller is connected, this is pulled to 3.3v. It is open when the controller is not connected.  
+GPIO 27 Is connected to the Wii header as controller detect. When the controller is connected, this is pulled to 3.3v. It is open when the controller is not connected.  
 
 ## Availible Servo/PWM/AnalogWrite Pins
 
