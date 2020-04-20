@@ -107,12 +107,12 @@ GPIO 27 Is connected to the Wii header as controller detect. When the controller
 The ESP32 can generate up to 16 simultanious Servo signels. 
 
 ```
-4     
-5    
-12-19 
-21-23 
-25-27 
-32-33 
+GPIO 4     
+GPIO 5    
+GPIO 12-19 
+GPIO 21-23 
+GPIO 25-27 
+GPIO 32-33 
 ```
 
 ### Timer distribution for PWM
@@ -124,8 +124,8 @@ See https://techtutorialsx.com/2017/10/07/esp32-arduino-timer-interrupts/
 
 ## Availible DAC pins
 ```
-25
-26
+GPIO 25
+GPIO 26
 ```
 These pins when used with analogWrite will produce an 8 bit analog value on the given pin. The value is from 0-3.3v mapped to 0-255 values. The api is to simply use analogWrite().
 
