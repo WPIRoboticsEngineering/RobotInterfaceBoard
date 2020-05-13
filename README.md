@@ -115,10 +115,31 @@ GPIO 25-27
 GPIO 32-33 
 ```
 
-### Timer distribution for PWM
-The ESP32 has 4 timers availible for use in PWM generation. All PWM channels using a given timer have the same base frequency. Changing the frequency of a channel will change the frequency of other channels. Note the chart for the PWM channel allocations coorospond to timers.
+## Servos, PWM, tone() and Timers
+
+The library ESP32Servo deals with all of the issues of cross allocation of the 4 timers and the associated PWM channels.
+
+Use ESP32Servo objects to control the servo
+
+Use the tone() function provided by ESP32Servo to make tones with PWM's
+
+Use ESP32PWM objects to deal with the sound, or the tone implementation provided inside of ESP32Servo.
+
+The library provides examples for each.
+
+
+FYI: Inside the library it deals with the allocation and de allocation of timers and the associations of PWM's with a common time base together. What you need to understand is that there are 4 timers. Each timer can produce 4 PWM's *at the same frequency* but with independent duty cycles. That means you can have 16 hardware controlled PWM, so long as you have no more than 4 different frequencies. Esp32Servo keeps track of the allocation states of the users PWMs and dynamically allocates the correct ledC channel. Directly touching ledC requires a deeper understand of how it is spreading the timer PWM's across the lecC channels and should be only do by the pros. 
+
 
 ### Timer Interrupts
+
+To use a timer interrupt, you will want to tell ESP32PWM not to allocate a specific timer. 
+
+```
+ESP32PWM::timerCount[0]=4;// this disables timer 0
+ESP32PWM::timerCount[2]=4;// this disables timer 2
+```
+The timer needs to be disabled before allocating any PWM's. After disabling it will not be used in the PWM allocation system and can be used by a library or by the user as a raw timer for interrupts. 
 
 See https://techtutorialsx.com/2017/10/07/esp32-arduino-timer-interrupts/
 
