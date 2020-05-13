@@ -128,7 +128,7 @@ Use ESP32PWM objects to deal with the sound, or the tone implementation provided
 The library provides examples for each.
 
 
-FYI: Inside the library it deals with the allocation and de allocation of timers and the associations of PWM's with a common time base together. What you need to understand is that there are 4 timers. Each timer can produce 4 PWM's *at the same frequency* but with independent duty cycles. That means you can have 16 hardware controlled PWM, so long as you have no more than 4 different frequencies. Esp32Servo keeps track of the allocation states of the users PWMs and dynamically allocates the correct ledC channel. Directly touching ledC requires a deeper understand of how it is spreading the timer PWM's across the lecC channels and should be only do by the pros. 
+FYI: Inside the library it deals with the allocation and de allocation of timers and the associations of PWM's with a common time base together. What you need to understand is that there are 4 timers. Each timer can produce 4 PWM's *at the same frequency* but with independent duty cycles. That means you can have 16 hardware controlled PWM, so long as you have no more than 4 different frequencies. Esp32Servo keeps track of the allocation states of the users PWMs and dynamically allocates the correct ledC channel.
 
 
 ### Timer Interrupts
