@@ -145,7 +145,7 @@ See https://techtutorialsx.com/2017/10/07/esp32-arduino-timer-interrupts/
 
 ### ledc functions
 
-DO NOT USE THESE! These are raw kernel level and are for the pros only. These pure C functions are part of the IDF and are provided for ESP32 programmers that are not using Arduino framework. The ledc functions spread PWM generation across the timers in an strange pattern:
+DO NOT USE THESE! These are raw API level and are for the pros only. These pure C functions are part of the IDF and are provided for ESP32 programmers that are not using Arduino framework. ESP32Servo uses these functions internally, but manages the interactions between channels for you. The ledc functions spread PWM generation across the timers 0-4 using channels 0-15 in an unintuitive pattern:
 
 ```
 /*
