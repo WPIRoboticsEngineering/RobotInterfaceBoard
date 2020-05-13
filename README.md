@@ -145,7 +145,7 @@ See https://techtutorialsx.com/2017/10/07/esp32-arduino-timer-interrupts/
 
 ### ledc functions
 
-DO NOT USE THESE! These are raw kernel level and are for the pros only. The ledc functions spread PWM feneration across the timers in an strange pattern:
+DO NOT USE THESE! These are raw kernel level and are for the pros only. The ledc functions spread PWM generation across the timers in an strange pattern:
 
 ```
 /*
