@@ -145,7 +145,7 @@ See https://techtutorialsx.com/2017/10/07/esp32-arduino-timer-interrupts/
 
 ### ledc functions
 
-DO NOT USE THESE! THese are raw kernel level and are for the pros. the ledc functions spread PWM feneration across the timers in an strange pattern:
+DO NOT USE THESE! These are raw kernel level and are for the pros only. The ledc functions spread PWM feneration across the timers in an strange pattern:
 
 ```
 /*
@@ -169,7 +169,7 @@ DO NOT USE THESE! THese are raw kernel level and are for the pros. the ledc func
 */
 ```
 
-note that timer 0 is used for ledc channels 0, 1, 8, 9 and that those channels will be all effected if the timing on timer 0 is changed.
+Note that timer 0 is used for ledc channels 0, 1, 8, 9 and that those channels will be all effected if the timing on timer 0 is changed. If you are writing some code that deals with LEDC, then do not use any features of ESP32Servo nor any library that uses timers. 
 
 ## Availible DAC pins
 ```
