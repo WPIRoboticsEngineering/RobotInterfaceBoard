@@ -143,6 +143,34 @@ The timer needs to be disabled before allocating any PWM's. After disabling it w
 
 See https://techtutorialsx.com/2017/10/07/esp32-arduino-timer-interrupts/
 
+### ledc functions
+
+DO NOT USE THESE! THese are raw kernel level and are for the pros. the ledc functions spread PWM feneration across the timers in an strange pattern:
+
+```
+/*
+ * LEDC Chan to Group/Channel/Timer Mapping
+** ledc: 0  => Group: 0, Channel: 0, Timer: 0
+** ledc: 1  => Group: 0, Channel: 1, Timer: 0
+** ledc: 2  => Group: 0, Channel: 2, Timer: 1
+** ledc: 3  => Group: 0, Channel: 3, Timer: 1
+** ledc: 4  => Group: 0, Channel: 4, Timer: 2
+** ledc: 5  => Group: 0, Channel: 5, Timer: 2
+** ledc: 6  => Group: 0, Channel: 6, Timer: 3
+** ledc: 7  => Group: 0, Channel: 7, Timer: 3
+** ledc: 8  => Group: 1, Channel: 0, Timer: 0
+** ledc: 9  => Group: 1, Channel: 1, Timer: 0
+** ledc: 10 => Group: 1, Channel: 2, Timer: 1
+** ledc: 11 => Group: 1, Channel: 3, Timer: 1
+** ledc: 12 => Group: 1, Channel: 4, Timer: 2
+** ledc: 13 => Group: 1, Channel: 5, Timer: 2
+** ledc: 14 => Group: 1, Channel: 6, Timer: 3
+** ledc: 15 => Group: 1, Channel: 7, Timer: 3
+*/
+```
+
+note that timer 0 is used for ledc channels 0, 1, 8, 9 and that those channels will be all effected if the timing on timer 0 is changed.
+
 ## Availible DAC pins
 ```
 GPIO 25
