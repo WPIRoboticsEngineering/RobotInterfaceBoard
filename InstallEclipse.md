@@ -14,6 +14,8 @@ Development Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRobot
 
 ## MacOS  Bundled Sloeber
 
+First install Java: https://www.java.com/en/download/manual.jsp
+
 Development Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
 
 Driver: [Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
