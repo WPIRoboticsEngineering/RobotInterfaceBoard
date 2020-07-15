@@ -12,13 +12,6 @@ Driver: [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32Ar
 Development Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-linux.zip)
 
 
-## MacOS  Bundled Sloeber
-
-First install Java: https://www.java.com/en/download/manual.jsp
-
-Development Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
-
-Driver: [Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
 
 
 ## Thats it, its all installed and configured
@@ -31,5 +24,15 @@ You are done, do not continue, go here:
 
 
 # HARD MODE
+
+## MacOS  Bundled Sloeber
+
+First install Java: https://www.java.com/en/download/manual.jsp
+
+Development Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
+
+Driver: [Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
+
+## From scratch setup
 
 I am almost sure you do not want this, but in case you are curious how those bundles are created in the first place you can look at [hardMode.md](hardMode.md)
