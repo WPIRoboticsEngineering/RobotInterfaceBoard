@@ -1,17 +1,19 @@
 # Easy Mode
 Download and install these, do not change any default values
 
-## Windows 10 Stand Alone install
+## [Officially supported choice] Windows 10 Stand Alone install
 
 Development Environment: [Sloeber Windows Installer](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.9/WPI-RBE-esp32-0.1.9.exe)
 
 Driver: [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 
-## Linux Bundled Sloeber
+## [Unsupported] Linux Bundled Sloeber
 
 Development Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-linux.zip)
 
-## MacOS 10.14 or earlier Bundled Sloeber
+## [Unsupported] MacOS 10.14 or earlier Bundled Sloeber
+
+We reccomend you install Windows 10 with boot camp. If you want to try the native MacOS version, here be dragons.
 
 Development Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.9/sloeber-MacOS-Esp32.zip)
 
@@ -29,7 +31,9 @@ You are done, do not continue, go here:
 
 # HARD MODE
 
-## MacOS 10.15+ Bundled Sloeber
+## [Unsupported, not reccomended] MacOS 10.15+ Bundled Sloeber
+
+We reccomend you install Windows 10 with boot camp. If you want to try the native MacOS version, here be dragons.
 
 First install Java: https://www.java.com/en/download/manual.jsp
 
@@ -50,7 +54,6 @@ Instructions for running an interactive installation using the macOS PKG install
 4. Read the license, click Continue and accept the license if you are happy with the terms.
 
 5. Change the target location for the installation. Click Install to complete the installation.
-
 
 
 Development Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.9/sloeber-MacOS-Esp32.zip)
