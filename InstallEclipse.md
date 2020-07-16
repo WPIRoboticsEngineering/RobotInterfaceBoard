@@ -1,17 +1,20 @@
 # Easy Mode
 Download and install these, do not change any default values
 
-## [Officially supported choice] Windows 10 Stand Alone install
+## [Officially Supported Choice] 
+## Windows 10 Stand Alone install
 
 Development Environment: [Sloeber Windows Installer](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.9/WPI-RBE-esp32-0.1.9.exe)
 
 Driver: [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 
-## [Unsupported] Linux Bundled Sloeber
+## [Unsupported] 
+## Linux Bundled Sloeber
 
 Development Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-linux.zip)
 
-## [Unsupported] MacOS 10.14 or earlier Bundled Sloeber
+## [Unsupported] 
+## MacOS 10.14 or earlier Bundled Sloeber
 
 We reccomend you install Windows 10 with boot camp. If you want to try the native MacOS version, here be dragons.
 
@@ -31,7 +34,8 @@ You are done, do not continue, go here:
 
 # HARD MODE
 
-## [Unsupported, not reccomended] MacOS 10.15+ Bundled Sloeber
+## [Unsupported, not reccomended] 
+## MacOS 10.15+ Bundled Sloeber
 
 We reccomend you install Windows 10 with boot camp. If you want to try the native MacOS version, here be dragons.
 
