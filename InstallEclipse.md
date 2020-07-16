@@ -4,6 +4,8 @@ Download and install these, do not change any default values
 ## [Officially Supported Choice] 
 ### Windows 10 Stand Alone install
 
+Requirements: Windows 10 on x86_64 with 16gb Ram
+
 Development Environment: [Sloeber Windows Installer](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.9/WPI-RBE-esp32-0.1.9.exe)
 
 Driver: [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
