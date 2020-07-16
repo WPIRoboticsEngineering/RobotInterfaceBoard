@@ -29,6 +29,26 @@ You are done, do not continue, go here:
 
 First install Java: https://www.java.com/en/download/manual.jsp
 
+Next install the OpenJDK Framework
+
+https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u262-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u262b10.pkg
+
+GUI installation
+
+Instructions for running an interactive installation using the macOS PKG installer.
+
+1. Download the .pkg file.
+
+2. Navigate to the folder that contains the file and open it to launch the installation program or drag the icon to your Application folder.
+
+3. The Introduction screen indicates the target location for the installation, which you can change later in the install process. Click Continue.
+
+4. Read the license, click Continue and accept the license if you are happy with the terms.
+
+5. Change the target location for the installation. Click Install to complete the installation.
+
+
+
 Development Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
 
 Driver: [Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
