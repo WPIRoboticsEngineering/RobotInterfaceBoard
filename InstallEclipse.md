@@ -1,7 +1,7 @@
 # Easy Mode
 Download and install these, do not change any default values
 
-## Windows Stand Alone install
+## Windows 10 Stand Alone install
 
 Development Environment: [Sloeber Windows Installer](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.9/WPI-RBE-esp32-0.1.9.exe)
 
