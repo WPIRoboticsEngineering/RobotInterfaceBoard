@@ -39,10 +39,12 @@ You are done, do not continue, go here:
 ## [Unsupported, not reccomended] 
 ### MacOS 10.15+ Bundled Sloeber
 
+#### 1) 
 We reccomend you install Windows 10 with boot camp. If you want to try the native MacOS version, here be dragons.
 
 First install Java: https://www.java.com/en/download/manual.jsp
 
+#### 2) 
 Next install the OpenJDK Framework
 
 https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u262-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u262b10.pkg
@@ -61,6 +63,7 @@ Instructions for running an interactive installation using the macOS PKG install
 
 5. Change the target location for the installation. Click Install to complete the installation.
 
+#### 3) 
 
 Development Environment: [Sloeber MacOS Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.9/sloeber-MacOS-Esp32.zip)
 
