@@ -10,12 +10,12 @@ Development Environment: [Sloeber Windows Installer](https://github.com/WPIRobot
 
 Driver: [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 
-## [Unsupported] 
+## [Unofficially supported] 
 ### Linux Bundled Sloeber
 
 Development Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-linux.zip)
 
-## [Unsupported] 
+## [Unofficially supported] 
 ### MacOS 10.14 or earlier Bundled Sloeber
 
 We reccomend you install Windows 10 with boot camp. If you want to try the native MacOS version, here be dragons.
