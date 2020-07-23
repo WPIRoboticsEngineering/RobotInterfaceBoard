@@ -29,7 +29,11 @@ Driver: [Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32Ardu
 
 You are done, do not continue, go here:
 
- [Open Projects in Eclipse using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
+ 
+## Start a Fresh Arduino Sketch
+[Create a Sketch with Git ](StartFreshSketch.md)
+
+[Create a Sketch no version control](StartFreshSketchNOGIT.md)
  
  Or just open Arduino RBE config on your desktop and use as normal. 
 
