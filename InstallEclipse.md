@@ -10,6 +10,14 @@ Development Environment: [Sloeber Windows Installer](https://github.com/WPIRobot
 
 Driver: [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 
+Unzip the contents.
+
+Open the folder on your disk and run
+
+```
+CP210xVCPInstaller_x64.exe
+```
+
 ## [Unofficially supported] 
 ### Linux Bundled Sloeber
 
