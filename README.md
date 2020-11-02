@@ -8,11 +8,14 @@ Download and install this, do not change any default values
 
  [Instructions to Open Projects in Eclipse](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
  
- # Start a Fresh Arduino Sketch
+ # Start a Fresh Arduino Sketch in Sloeber Eclipse
 [Create a Sketch with Git (STRONGLY recommended)](StartFreshSketch.md)
 
 [Create a Sketch without Git (Discouraged)](StartFreshSketchNOGIT.md)
 
+# Install VSCode+PlatformIO
+
+[Instructions for setting up VSCode for use in RBE1001](https://github.com/WPIRoboticsEngineering/ZenVSCodeInstaller)
 
 # Robot Interface Board
 
