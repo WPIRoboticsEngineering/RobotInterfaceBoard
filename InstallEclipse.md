@@ -21,7 +21,7 @@ CP210xVCPInstaller_x64.exe
 ## [Unofficially supported] 
 ### Linux Bundled Sloeber
 
-Development Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber.zip)
+Development Environment: [Sloeber Linux Stand Alone](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/linux-sloeber-eclipse.zip)
 
 ## [Unofficially supported] 
 ### MacOS 10.14 or earlier Bundled Sloeber
