@@ -19,7 +19,7 @@ Download and install this, do not change any default values
 
 # Robot Interface Board
 
-The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Arduino module](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC?qs=sGAEpiMZZMuJ3l9lTgMBp1ZUJQFPkBG2y%2FW6zdCuiDMN%252BIbH6RhDCA%3D%3D). The Dev Kit C is a reference design of the ESP32-WROOM-32 module which houses the WiFi and bluetooth Antenae. The ESP32-WROOM-32 module houses an ESP32 microcontroller. 
+The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Arduino module](https://www.digikey.com/product-detail/en/ESP32-DEVKITC-32D/1965-1000-ND/9356990/?itemSeq=353617778). The Dev Kit C is a reference design of the ESP32-WROOM-32 module which houses the WiFi and bluetooth Antenae. The ESP32-WROOM-32 module houses an ESP32 microcontroller. 
 
 #### Datasheet
 
